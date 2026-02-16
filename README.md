@@ -1,4 +1,6 @@
+Created this to download your emails to use for AI training or whatever else you may need it for.
 
+---------Follow This First to setup your Gmail to accept IMAP requests --------------
 For creditials in the .env you have to set up an App Password on your gmail account. 
 You must first ensure that 2-Step Verification is enabled on the Google account. 
 
@@ -25,11 +27,30 @@ Click Done.
 Step 3: Use the Password in Your App 
 - When configuring your IMAP application, use the following credentials:
 
-    Username: Your full Gmail address.
-    Password: The 16-character code you just generated (do not use your regular Gmail password).
-    IMAP Server: imap.gmail.com
-    Port: 993 (SSL/TLS) 
+        Username: Your full Gmail address.
+        Password: The 16-character code you just generated (do not use your regular Gmail password).
+        IMAP Server: imap.gmail.com
+        Port: 993 (SSL/TLS) 
 
 Important: Make sure IMAP Access is enabled in your Gmail settings. Go to Gmail > Settings > Forwarding and POP/IMAP > Enable IMAP.
+
 # GetEmailData
 Fetches the latest 100 e‑mails from your Gmail account and stores them as JSON files in a specified directory of your choosing.
+
+    ------------Requirements.txt-----------------
+      Windows: python -m pip install -r requirements.txt
+      Mac/Linux: python3 -m pip install -r requirements.txt
+
+      Usage: 
+         python GetEmailData.py
+
+      Optional arguments:
+         --out_dir <directory> : Directory to store JSON files (default: current folder)
+ 
+     Example:
+         python GetEmailData.py --out_dir /path/to/output/directory
+
+ Note: Make sure GMAIL_USER and GMAIL_PASS are in your .env file
+
+
+
