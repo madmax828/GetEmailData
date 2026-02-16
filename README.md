@@ -27,8 +27,8 @@ Click Done.
 Step 3: Use the Password in Your App 
 - When configuring your IMAP application, use the following credentials:
 
-        Username: Your full Gmail address.
-        Password: The 16-character code you just generated (do not use your regular Gmail password).
+        Username: (YourFullGmail@gmail.com)
+        Password: The 16-character code you just generated (Do NOT use your regular Gmail password).
         IMAP Server: imap.gmail.com
         Port: 993 (SSL/TLS) 
 
