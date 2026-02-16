@@ -43,13 +43,15 @@ Fetches the latest 100 e‑mails from your Gmail account and stores them as JSON
       Mac/Linux: python3 -m pip install -r requirements.txt
 
       Usage: 
-         python GetEmailData.py
-
+         Windows: python.exe GetEmailData.py
+         Mac/Linux: python3 GetEmailData.py
+         
       Optional arguments:
          --out_dir <directory> : Directory to store JSON files (default: current folder)
  
      Example:
-         python GetEmailData.py --out_dir /path/to/output/directory
+         Windows: python.exe GetEmailData.py --out_dir /path/to/output/directory
+         Mac/Linux: python3 GetEmailData.py --out_dir /path/to/output/directory
 
  Note: Make sure GMAIL_USER and GMAIL_PASS are in your .env file
 
