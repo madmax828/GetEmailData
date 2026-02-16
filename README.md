@@ -1,6 +1,7 @@
 Created this to download your emails to use for AI training or whatever else you may need it for.
 
 ---------Follow This First to setup your Gmail to accept IMAP requests --------------
+
 For creditials in the .env you have to set up an App Password on your gmail account. 
 You must first ensure that 2-Step Verification is enabled on the Google account. 
 
