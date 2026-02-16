@@ -39,7 +39,7 @@ Important: Make sure IMAP Access is enabled in your Gmail settings. Go to Gmail 
 Fetches the latest 100 e‑mails from your Gmail account and stores them as JSON files in a specified directory of your choosing.
 
     ------------Requirements.txt-----------------
-      Windows: python -m pip install -r requirements.txt
+      Windows: python.exe -m pip install -r requirements.txt
       Mac/Linux: python3 -m pip install -r requirements.txt
 
       Usage: 
